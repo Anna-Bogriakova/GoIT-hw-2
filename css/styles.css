@@ -49,9 +49,7 @@ ol {
 .contacts-link:hover,
 .contacts-link:focus,
 .nav-link:hover,
-.nav-link:focus,
-.button:hover,
-.button:focus {
+.nav-link:focus {
   color: #404bbf;
 }
 
@@ -75,15 +73,33 @@ ol {
   color: #f4f4fd;
 }
 
-.h-one {
+.hero-section {
+  background: #2e2f42;
+}
+
+.hero-title {
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
-  text-align: center;
   color: #fff;
-  background: #2e2f42;
   font-family: "Roboto", sans-serif;
+}
+
+.hero-button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  background-color: #4d5ae5;
+  font-family: "Roboto", sans-serif;
+  cursor: pointer;
+}
+
+.hero-button:hover,
+.hero-button:focus {
+  background-color: #404bbf;
 }
 
 .services {
@@ -95,21 +111,23 @@ ol {
   color: #fff;
 }
 
-.button {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-  color: #fff;
-  background: #4d5ae5;
-  font-family: "Roboto", sans-serif;
-  cursor: pointer;
+.team {
 }
-
-main {
+.team-title {
+}
+.team-member {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+}
+.team-member-position {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  font-family: "Roboto", sans-serif;
+  text-align: center;
+  color: #434455;
 }
