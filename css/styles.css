@@ -115,7 +115,6 @@ ol {
 .team-section {
   text-align: center;
   background: #f4f4fd;
-  padding: 50px 0;
 }
 
 .team-section-title {
@@ -124,7 +123,6 @@ ol {
   line-height: 1.1;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  margin-bottom: 40px;
 }
 
 .team-list {
@@ -132,7 +130,6 @@ ol {
   gap: 20px;
   justify-content: center;
   list-style: none;
-  padding: 0;
 }
 
 .team-card {
