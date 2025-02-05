@@ -137,9 +137,6 @@ ol {
 
 .team-card {
   background: #ffffff;
-  padding: 20px;
-  border-radius: 8px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .team-member-name {
@@ -148,7 +145,6 @@ ol {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  margin-top: 16px;
 }
 
 .team-member-role {
