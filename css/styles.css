@@ -136,6 +136,7 @@ ol {
 
 .portfolio {
   background-color: #f4f4fd;
+  text-transform: capitalize;
 }
 
 .portfolio-title {
@@ -145,7 +146,6 @@ ol {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
-  text-transform: capitalize;
 }
 
 .portfolio-item-title {
